@@ -1,6 +1,6 @@
 # this class holds the results after the math is done 
 
-class AnaysisResult: 
+class AnalysisResult: 
     def __init__(self, metric_name, value, grouped_data, conclusion):
         # metric_name - what was measures (average rush attempt per win )
         # value - the actual number computed 
@@ -10,7 +10,7 @@ class AnaysisResult:
         self.metric_name = metric_name
         self.value = value
         self.grouped_data = grouped_data
-        self.conclusion - conclusion
+        self.conclusion = conclusion
 
     def __repr__(self):
         # prints a summary of the results 

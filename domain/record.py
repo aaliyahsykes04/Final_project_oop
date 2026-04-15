@@ -15,7 +15,7 @@ class Record:
     def __repr__(self):
         # __repr__ controls what prints when you do print(record)
     
-        return f"Record ({self.team} , Week {self.week}, {self.results}, {self.rush_attempts} rushes)"
+        return f"Record ({self.team} , Week {self.week}, {self.result}, {self.rush_attempts} rushes)"
         # returns the statement with the info filled out 
 
         
